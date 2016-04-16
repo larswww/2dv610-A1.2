@@ -1,0 +1,19 @@
+{
+  "name": "cn5k",
+  "version": "1.0.0",
+  "description": "lw222ii student project 1dv430",
+  "main": "cn5k.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larswww/lw222iiChinese5k.git"
+  },
+  "author": "Lars Woldern",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larswww/lw222iiChinese5k/issues"
+  },
+  "homepage": "https://github.com/larswww/lw222iiChinese5k#readme"
+}
