@@ -19,9 +19,14 @@
   "dependencies": {
     "bootstrap": "^3.3.6",
     "express": "^4.13.4",
-    "express-handlebars": "^3.0.0"
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.4.12"
   },
   "devDependencies": {
-    "jquery": "^2.2.3"
+    "hanzi": "^0.5.0",
+    "hsk-words": "^0.1.0",
+    "jquery": "^2.2.3",
+    "prettify-pinyin": "^0.1.5",
+    "subtlex-word-frequencies": "^1.0.0"
   }
 }

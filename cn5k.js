@@ -15,6 +15,8 @@ app.set("port", process.env.PORT || 3000);
 app.use("/", require("./routes/main.js"));
 
 //------    BOOT    ------//
-app.listen(app.get("port"), function() {
+app.listen(app.get("port"), function () {
     console.log("Express started on http://localhost:" + app.get("port") + "; press Ctrl-C to terminate.");
 });
+
+
