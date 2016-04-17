@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/larswww/lw222iiChinese5k/issues"
   },
-  "homepage": "https://github.com/larswww/lw222iiChinese5k#readme"
+  "homepage": "https://github.com/larswww/lw222iiChinese5k#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "jquery": "^2.2.3"
+  }
 }
