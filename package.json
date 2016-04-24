@@ -26,6 +26,7 @@
     "hanzi": "^0.5.0",
     "hsk-words": "^0.1.0",
     "jquery": "^2.2.3",
+    "line-by-line": "^0.1.4",
     "prettify-pinyin": "^0.1.5",
     "subtlex-word-frequencies": "^1.0.0"
   }

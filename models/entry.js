@@ -5,6 +5,7 @@ let mongoose = require("mongoose");
 var entrySchema = new mongoose.Schema({
     traditional: String,
     simplified: String,
+    unified: String,
     decomposition: [String],
     pinyinNumbers: String,
     pinyinPretty: String,
@@ -20,9 +21,16 @@ var entrySchema = new mongoose.Schema({
     },
     definition: [String],
     related: {
-        beginning: [String],
-        containing: [String],
-        ending: [String]
+        simplified: {
+            beginning: [String],
+            containing: [String],
+            ending: [String]
+        },
+        traditional: {
+            beginning: [String],
+            containing: [String],
+            ending: [String]
+        }
     }
 });
 
